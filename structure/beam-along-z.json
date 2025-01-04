@@ -1,0 +1,43 @@
+{
+	"metadata": {
+		"version": 4.6,
+		"type": "Object",
+		"generator": "Object3D.toJSON"
+	},
+	"geometries": [
+		{
+			"uuid": "197039db-2cf5-4954-be23-1810f9cd3eb9",
+			"type": "BoxGeometry",
+			"width": 4.5,
+			"height": 0.5,
+			"depth": 0.5,
+			"widthSegments": 1,
+			"heightSegments": 1,
+			"depthSegments": 1
+		}],
+	"materials": [
+		{
+			"uuid": "a320c5c8-94e7-4cb2-9e96-ab355a8c2daa",
+			"type": "MeshStandardMaterial",
+			"name": "Concrete",
+			"color": 16777215,
+			"roughness": 1,
+			"metalness": 0,
+			"emissive": 12171705,
+			"envMapRotation": [0,0,0,
+				"XYZ"],
+			"envMapIntensity": 1,
+			"blendColor": 0
+		}],
+	"object": {
+		"uuid": "270ec487-9cba-41e4-aa20-8d1679d666cf",
+		"type": "Mesh",
+		"name": "Beam N-S",
+		"visible": false,
+		"layers": 1,
+		"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,3,0.25,0.5,1],
+		"up": [0,1,0],
+		"geometry": "197039db-2cf5-4954-be23-1810f9cd3eb9",
+		"material": "a320c5c8-94e7-4cb2-9e96-ab355a8c2daa"
+	}
+}

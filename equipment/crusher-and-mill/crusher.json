@@ -1,0 +1,274 @@
+{
+	"metadata": {
+		"version": 4.6,
+		"type": "Object",
+		"generator": "Object3D.toJSON"
+	},
+	"geometries": [
+		{
+			"uuid": "332491f0-cf17-4a8f-a62a-ba4cb098939b",
+			"type": "CylinderGeometry",
+			"radiusTop": 3,
+			"radiusBottom": 1,
+			"height": 1,
+			"radialSegments": 32,
+			"heightSegments": 1,
+			"openEnded": false,
+			"thetaStart": 0,
+			"thetaLength": 6.283185307179586
+		},
+		{
+			"uuid": "9d0c9d2e-66ba-47b5-8ba0-8afdfb5a0d35",
+			"type": "CylinderGeometry",
+			"radiusTop": 0.5,
+			"radiusBottom": 0.5,
+			"height": 1,
+			"radialSegments": 32,
+			"heightSegments": 1,
+			"openEnded": false,
+			"thetaStart": 0,
+			"thetaLength": 6.283185307179586
+		},
+		{
+			"uuid": "24520162-d281-48d1-a8e8-f2e71ea8c439",
+			"type": "CylinderGeometry",
+			"radiusTop": 1,
+			"radiusBottom": 1,
+			"height": 1,
+			"radialSegments": 32,
+			"heightSegments": 1,
+			"openEnded": false,
+			"thetaStart": 0,
+			"thetaLength": 6.283185307179586
+		},
+		{
+			"uuid": "dfaeb57a-4b69-4c64-b8dd-71e2f5912d7d",
+			"type": "CylinderGeometry",
+			"radiusTop": 1,
+			"radiusBottom": 1,
+			"height": 1,
+			"radialSegments": 32,
+			"heightSegments": 1,
+			"openEnded": false,
+			"thetaStart": 0,
+			"thetaLength": 6.283185307179586
+		},
+		{
+			"uuid": "d5b1687f-b107-487f-bedf-1a9fd199ce08",
+			"type": "BoxGeometry",
+			"width": 1,
+			"height": 1,
+			"depth": 1,
+			"widthSegments": 1,
+			"heightSegments": 1,
+			"depthSegments": 1
+		},
+		{
+			"uuid": "71b60b3d-12ac-476b-9c54-41586cfb4985",
+			"type": "BoxGeometry",
+			"width": 1,
+			"height": 1,
+			"depth": 1,
+			"widthSegments": 1,
+			"heightSegments": 1,
+			"depthSegments": 1
+		},
+		{
+			"uuid": "a5d3bef9-5387-4f14-a329-797f73746c52",
+			"type": "CylinderGeometry",
+			"radiusTop": 1,
+			"radiusBottom": 1,
+			"height": 1,
+			"radialSegments": 32,
+			"heightSegments": 1,
+			"openEnded": false,
+			"thetaStart": 0,
+			"thetaLength": 6.283185307179586
+		}],
+	"materials": [
+		{
+			"uuid": "4951e1a5-80a3-4199-9ec1-109318513586",
+			"type": "MeshStandardMaterial",
+			"color": 16777215,
+			"roughness": 1,
+			"metalness": 0,
+			"emissive": 993243,
+			"envMapRotation": [0,0,0,
+				"XYZ"],
+			"envMapIntensity": 1,
+			"blendColor": 0
+		},
+		{
+			"uuid": "fa5c9d03-63fd-4e74-9c8d-3cf9de80eee2",
+			"type": "MeshStandardMaterial",
+			"name": "SS",
+			"color": 16777215,
+			"roughness": 1,
+			"metalness": 1,
+			"emissive": 0,
+			"envMapRotation": [0,0,0,
+				"XYZ"],
+			"envMapIntensity": 1,
+			"blendColor": 0
+		},
+		{
+			"uuid": "d4eabab4-05d0-4c8e-9cce-88141ab8be97",
+			"type": "MeshStandardMaterial",
+			"name": "CS BLUE",
+			"color": 16777215,
+			"roughness": 1,
+			"metalness": 1,
+			"emissive": 993243,
+			"envMapRotation": [0,0,0,
+				"XYZ"],
+			"envMapIntensity": 1,
+			"blendColor": 0
+		},
+		{
+			"uuid": "4badb13a-14bd-41cd-aa37-bf02d5f71325",
+			"type": "MeshStandardMaterial",
+			"name": "CS RED",
+			"color": 16777215,
+			"roughness": 1,
+			"metalness": 1,
+			"emissive": 11730944,
+			"envMapRotation": [0,0,0,
+				"XYZ"],
+			"envMapIntensity": 1,
+			"blendColor": 0
+		},
+		{
+			"uuid": "e5070465-a661-41be-8fcb-a413b1c04af4",
+			"type": "MeshStandardMaterial",
+			"color": 16777215,
+			"roughness": 1,
+			"metalness": 0,
+			"emissive": 0,
+			"envMapRotation": [0,0,0,
+				"XYZ"],
+			"envMapIntensity": 1,
+			"blendColor": 0
+		},
+		{
+			"uuid": "6074d4ed-9584-4122-a8e4-23fb8a24139c",
+			"type": "MeshStandardMaterial",
+			"color": 16777215,
+			"roughness": 1,
+			"metalness": 0,
+			"emissive": 0,
+			"envMapRotation": [0,0,0,
+				"XYZ"],
+			"envMapIntensity": 1,
+			"blendColor": 0
+		},
+		{
+			"uuid": "8c13f3eb-386c-4ba5-bb9e-1d70585214f9",
+			"type": "MeshStandardMaterial",
+			"color": 16777215,
+			"roughness": 1,
+			"metalness": 0,
+			"emissive": 0,
+			"envMapRotation": [0,0,0,
+				"XYZ"],
+			"envMapIntensity": 1,
+			"blendColor": 0
+		}],
+	"object": {
+		"uuid": "8399b6c4-0682-468b-bda5-77b0ba1d20e6",
+		"type": "Group",
+		"name": "Crusher",
+		"layers": 1,
+		"matrix": [2.220446049250313e-16,1,0,0,-1,2.220446049250313e-16,0,0,0,0,1,0,0,0,0,1],
+		"up": [0,1,0],
+		"children": [
+			{
+				"uuid": "c4d65077-9243-4338-ad12-6b5840bcc640",
+				"type": "Mesh",
+				"name": "Hopper",
+				"layers": 1,
+				"matrix": [5.551115123125783e-16,-2.5,0,0,10,2.220446049250313e-15,0,0,0,0,2.5,0,2.8999362646040545,9.33625229448891,-0.02906610010059829,1],
+				"up": [0,1,0],
+				"geometry": "332491f0-cf17-4a8f-a62a-ba4cb098939b",
+				"material": "4951e1a5-80a3-4199-9ec1-109318513586"
+			},
+			{
+				"uuid": "887500df-1583-48b6-a654-3a3ab79ac4d0",
+				"type": "Mesh",
+				"name": "Stem",
+				"layers": 1,
+				"matrix": [1,0,0,0,0,3.1371060579113044,0,0,0,0,1,0,-2.3592239273284576e-16,5.327598493032642,0,1],
+				"up": [0,1,0],
+				"geometry": "9d0c9d2e-66ba-47b5-8ba0-8afdfb5a0d35",
+				"material": "fa5c9d03-63fd-4e74-9c8d-3cf9de80eee2"
+			},
+			{
+				"uuid": "6d7ba6e0-3b8e-421b-b278-61c2d49eeab3",
+				"type": "Group",
+				"name": "Motor",
+				"layers": 1,
+				"matrix": [2,0,0,0,0,2,0,0,0,0,2,0,0.12232876062700357,4.163336342344337e-17,0,1],
+				"up": [0,1,0],
+				"children": [
+					{
+						"uuid": "e696ab09-4dbc-4fb9-9241-0079bec7fd1f",
+						"type": "Mesh",
+						"name": "Part1",
+						"layers": 1,
+						"matrix": [1.2,0,0,0,0,1,0,0,0,0,1.2,0,4.440892098500626e-16,-1.9690107962451109,0,1],
+						"up": [0,1,0],
+						"geometry": "24520162-d281-48d1-a8e8-f2e71ea8c439",
+						"material": "d4eabab4-05d0-4c8e-9cce-88141ab8be97"
+					},
+					{
+						"uuid": "a953bbf2-b15a-418e-acc4-242afba7865a",
+						"type": "Mesh",
+						"name": "Part2",
+						"layers": 1,
+						"matrix": [1,0,0,0,0,3,0,0,0,0,1,0,0,0,0,1],
+						"up": [0,1,0],
+						"geometry": "dfaeb57a-4b69-4c64-b8dd-71e2f5912d7d",
+						"material": "4badb13a-14bd-41cd-aa37-bf02d5f71325"
+					},
+					{
+						"uuid": "f56227dc-9b2e-4370-85bb-f94e671a7d0d",
+						"type": "Mesh",
+						"name": "Motor Flange",
+						"layers": 1,
+						"matrix": [1.2,0,0,0,0,0.5,0,0,0,0,1.2,0,-4.996003610813204e-16,1.714709810744842,0,1],
+						"up": [0,1,0],
+						"geometry": "24520162-d281-48d1-a8e8-f2e71ea8c439",
+						"material": "d4eabab4-05d0-4c8e-9cce-88141ab8be97"
+					}]
+			},
+			{
+				"uuid": "b99aa162-1618-4256-9d5c-555aa71ce65f",
+				"type": "Mesh",
+				"name": "Motor Support",
+				"layers": 1,
+				"matrix": [2.4651956305859902e-15,-11.10225412330244,0,0,1.8044208297952993,4.006619102703944e-16,0,0,0,0,2.264177707483357,0,-3.160932788097022,-0.2558709623884011,0.036244801012980776,1],
+				"up": [0,1,0],
+				"geometry": "d5b1687f-b107-487f-bedf-1a9fd199ce08",
+				"material": "e5070465-a661-41be-8fcb-a413b1c04af4"
+			},
+			{
+				"uuid": "571bdacc-b076-4608-b232-b5bdc1117f54",
+				"type": "Mesh",
+				"name": "Crusher Support",
+				"layers": 1,
+				"matrix": [4.260629762200422e-15,-19.188170609409465,0,0,1.0863176995735875,2.412109844248861e-16,0,0,0,0,8.30030725509364,0,-4.577514018112524,3.199524202863482,0,1],
+				"up": [0,1,0],
+				"geometry": "71b60b3d-12ac-476b-9c54-41586cfb4985",
+				"material": "6074d4ed-9584-4122-a8e4-23fb8a24139c"
+			},
+			{
+				"uuid": "1169d001-f42b-4c02-8d5f-64c429e50a52",
+				"type": "Mesh",
+				"name": "Crusher Discharge",
+				"layers": 1,
+				"matrix": [5.773159728050814e-16,-5.773159728050814e-16,2.6,0,2.6,0,-5.773159728050814e-16,0,0,2.6,5.773159728050814e-16,0,-3.2124934747943614,9.337317256306104,-0.02434302390790055,1],
+				"up": [0,1,0],
+				"geometry": "a5d3bef9-5387-4f14-a329-797f73746c52",
+				"material": "8c13f3eb-386c-4ba5-bb9e-1d70585214f9"
+			}]
+	}
+}

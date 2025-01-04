@@ -1,0 +1,308 @@
+{
+	"metadata": {
+		"version": 4.6,
+		"type": "Object",
+		"generator": "Object3D.toJSON"
+	},
+	"geometries": [
+		{
+			"uuid": "921c0f6c-b348-4bcf-a10c-ebb329958ce9",
+			"type": "CylinderGeometry",
+			"radiusTop": 1,
+			"radiusBottom": 1,
+			"height": 1,
+			"radialSegments": 32,
+			"heightSegments": 1,
+			"openEnded": false,
+			"thetaStart": 0,
+			"thetaLength": 6.283185307179586
+		},
+		{
+			"uuid": "9d0c9d2e-66ba-47b5-8ba0-8afdfb5a0d35",
+			"type": "CylinderGeometry",
+			"radiusTop": 0.5,
+			"radiusBottom": 0.5,
+			"height": 1,
+			"radialSegments": 32,
+			"heightSegments": 1,
+			"openEnded": false,
+			"thetaStart": 0,
+			"thetaLength": 6.283185307179586
+		},
+		{
+			"uuid": "24520162-d281-48d1-a8e8-f2e71ea8c439",
+			"type": "CylinderGeometry",
+			"radiusTop": 1,
+			"radiusBottom": 1,
+			"height": 1,
+			"radialSegments": 32,
+			"heightSegments": 1,
+			"openEnded": false,
+			"thetaStart": 0,
+			"thetaLength": 6.283185307179586
+		},
+		{
+			"uuid": "dfaeb57a-4b69-4c64-b8dd-71e2f5912d7d",
+			"type": "CylinderGeometry",
+			"radiusTop": 1,
+			"radiusBottom": 1,
+			"height": 1,
+			"radialSegments": 32,
+			"heightSegments": 1,
+			"openEnded": false,
+			"thetaStart": 0,
+			"thetaLength": 6.283185307179586
+		},
+		{
+			"uuid": "a6377f9d-fe0b-46eb-a999-6c826a920b5c",
+			"type": "CylinderGeometry",
+			"radiusTop": 1,
+			"radiusBottom": -0.14,
+			"height": 2.8,
+			"radialSegments": 32,
+			"heightSegments": 1,
+			"openEnded": false,
+			"thetaStart": 0,
+			"thetaLength": 6.283185307179586
+		},
+		{
+			"uuid": "348032d4-2b8f-4a75-a961-1f354bd24165",
+			"type": "CylinderGeometry",
+			"radiusTop": 1.2,
+			"radiusBottom": 1.2,
+			"height": 0.15,
+			"radialSegments": 32,
+			"heightSegments": 1,
+			"openEnded": false,
+			"thetaStart": 0,
+			"thetaLength": 6.283185307179586
+		},
+		{
+			"uuid": "d5b1687f-b107-487f-bedf-1a9fd199ce08",
+			"type": "BoxGeometry",
+			"width": 1,
+			"height": 1,
+			"depth": 1,
+			"widthSegments": 1,
+			"heightSegments": 1,
+			"depthSegments": 1
+		},
+		{
+			"uuid": "71b60b3d-12ac-476b-9c54-41586cfb4985",
+			"type": "BoxGeometry",
+			"width": 1,
+			"height": 1,
+			"depth": 1,
+			"widthSegments": 1,
+			"heightSegments": 1,
+			"depthSegments": 1
+		}],
+	"materials": [
+		{
+			"uuid": "744d63a9-12ec-4296-93be-f9751de9796c",
+			"type": "MeshStandardMaterial",
+			"color": 16777215,
+			"roughness": 1,
+			"metalness": 0,
+			"emissive": 0,
+			"envMapRotation": [0,0,0,
+				"XYZ"],
+			"envMapIntensity": 1,
+			"blendColor": 0
+		},
+		{
+			"uuid": "fa5c9d03-63fd-4e74-9c8d-3cf9de80eee2",
+			"type": "MeshStandardMaterial",
+			"name": "SS",
+			"color": 16777215,
+			"roughness": 1,
+			"metalness": 1,
+			"emissive": 0,
+			"envMapRotation": [0,0,0,
+				"XYZ"],
+			"envMapIntensity": 1,
+			"blendColor": 0
+		},
+		{
+			"uuid": "d4eabab4-05d0-4c8e-9cce-88141ab8be97",
+			"type": "MeshStandardMaterial",
+			"name": "CS BLUE",
+			"color": 16777215,
+			"roughness": 1,
+			"metalness": 1,
+			"emissive": 993243,
+			"envMapRotation": [0,0,0,
+				"XYZ"],
+			"envMapIntensity": 1,
+			"blendColor": 0
+		},
+		{
+			"uuid": "4badb13a-14bd-41cd-aa37-bf02d5f71325",
+			"type": "MeshStandardMaterial",
+			"name": "CS RED",
+			"color": 16777215,
+			"roughness": 1,
+			"metalness": 1,
+			"emissive": 11730944,
+			"envMapRotation": [0,0,0,
+				"XYZ"],
+			"envMapIntensity": 1,
+			"blendColor": 0
+		},
+		{
+			"uuid": "7b099b29-072f-451a-8afc-0436297913b9",
+			"type": "MeshStandardMaterial",
+			"color": 16777215,
+			"roughness": 1,
+			"metalness": 1,
+			"emissive": 0,
+			"envMapRotation": [0,0,0,
+				"XYZ"],
+			"envMapIntensity": 1,
+			"blendColor": 0
+		},
+		{
+			"uuid": "3d8c2c8b-f411-40c2-aaa0-5b7cde9622d1",
+			"type": "MeshStandardMaterial",
+			"color": 16777215,
+			"roughness": 1,
+			"metalness": 0,
+			"emissive": 993243,
+			"envMapRotation": [0,0,0,
+				"XYZ"],
+			"envMapIntensity": 1,
+			"blendColor": 0
+		},
+		{
+			"uuid": "e5070465-a661-41be-8fcb-a413b1c04af4",
+			"type": "MeshStandardMaterial",
+			"color": 16777215,
+			"roughness": 1,
+			"metalness": 0,
+			"emissive": 0,
+			"envMapRotation": [0,0,0,
+				"XYZ"],
+			"envMapIntensity": 1,
+			"blendColor": 0
+		},
+		{
+			"uuid": "6074d4ed-9584-4122-a8e4-23fb8a24139c",
+			"type": "MeshStandardMaterial",
+			"color": 16777215,
+			"roughness": 1,
+			"metalness": 0,
+			"emissive": 0,
+			"envMapRotation": [0,0,0,
+				"XYZ"],
+			"envMapIntensity": 1,
+			"blendColor": 0
+		}],
+	"object": {
+		"uuid": "8399b6c4-0682-468b-bda5-77b0ba1d20e6",
+		"type": "Group",
+		"name": "Compressor",
+		"layers": 1,
+		"matrix": [2.220446049250313e-16,1,0,0,-1,2.220446049250313e-16,0,0,0,0,1,0,0,0,0,1],
+		"up": [0,1,0],
+		"children": [
+			{
+				"uuid": "769c019b-7bae-4043-9934-38b464cfcc45",
+				"type": "Mesh",
+				"name": "Compressor Body",
+				"layers": 1,
+				"matrix": [2.999881154298362,0.026703184932286725,-9.73141317274831e-16,0,-0.008901061644095576,0.9999603847661206,2.887444671289181e-18,0,9.731798700229886e-16,0,3,0,-4.0939474033052647e-16,3.507931686089805,0,1],
+				"up": [0,1,0],
+				"geometry": "921c0f6c-b348-4bcf-a10c-ebb329958ce9",
+				"material": "744d63a9-12ec-4296-93be-f9751de9796c"
+			},
+			{
+				"uuid": "887500df-1583-48b6-a654-3a3ab79ac4d0",
+				"type": "Mesh",
+				"name": "Stem",
+				"layers": 1,
+				"matrix": [0.3738661453450025,0,0,0,0,1,0,0,0,0,0.3738661453450025,0,5.551115123125783e-17,2.494847022636682,0,1],
+				"up": [0,1,0],
+				"geometry": "9d0c9d2e-66ba-47b5-8ba0-8afdfb5a0d35",
+				"material": "fa5c9d03-63fd-4e74-9c8d-3cf9de80eee2"
+			},
+			{
+				"uuid": "6d7ba6e0-3b8e-421b-b278-61c2d49eeab3",
+				"type": "Group",
+				"name": "Motor",
+				"layers": 1,
+				"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1],
+				"up": [0,1,0],
+				"children": [
+					{
+						"uuid": "e696ab09-4dbc-4fb9-9241-0079bec7fd1f",
+						"type": "Mesh",
+						"name": "Part1",
+						"layers": 1,
+						"matrix": [1.2,0,0,0,0,1,0,0,0,0,1.2,0,4.440892098500626e-16,-1.9690107962451109,0,1],
+						"up": [0,1,0],
+						"geometry": "24520162-d281-48d1-a8e8-f2e71ea8c439",
+						"material": "d4eabab4-05d0-4c8e-9cce-88141ab8be97"
+					},
+					{
+						"uuid": "a953bbf2-b15a-418e-acc4-242afba7865a",
+						"type": "Mesh",
+						"name": "Part2",
+						"layers": 1,
+						"matrix": [1,0,0,0,0,3,0,0,0,0,1,0,0,0,0,1],
+						"up": [0,1,0],
+						"geometry": "dfaeb57a-4b69-4c64-b8dd-71e2f5912d7d",
+						"material": "4badb13a-14bd-41cd-aa37-bf02d5f71325"
+					},
+					{
+						"uuid": "f56227dc-9b2e-4370-85bb-f94e671a7d0d",
+						"type": "Mesh",
+						"name": "Motor Flange",
+						"layers": 1,
+						"matrix": [1.2,0,0,0,0,0.5,0,0,0,0,1.2,0,-4.996003610813204e-16,1.714709810744842,0,1],
+						"up": [0,1,0],
+						"geometry": "24520162-d281-48d1-a8e8-f2e71ea8c439",
+						"material": "d4eabab4-05d0-4c8e-9cce-88141ab8be97"
+					}]
+			},
+			{
+				"uuid": "bb2a114a-8852-40da-8f97-3317a7daf399",
+				"type": "Mesh",
+				"name": "Flange neck",
+				"layers": 1,
+				"matrix": [0,1,-2.220446049250313e-16,0,-2.220446049250313e-16,2.220446049250313e-16,1,0,1,0,2.220446049250313e-16,0,2.5005599414020034,3.560147733757205,1.7406862279399753,1],
+				"up": [0,1,0],
+				"geometry": "a6377f9d-fe0b-46eb-a999-6c826a920b5c",
+				"material": "7b099b29-072f-451a-8afc-0436297913b9"
+			},
+			{
+				"uuid": "a95c22f8-3123-40b0-8e3f-eeaf108dc597",
+				"type": "Mesh",
+				"name": "Flange",
+				"layers": 1,
+				"matrix": [1,0,0,0,0,2.220446049250313e-16,1,0,0,-1,2.220446049250313e-16,0,2.527574795221477,3.5856973380460357,3.1996714519461213,1],
+				"up": [0,1,0],
+				"geometry": "348032d4-2b8f-4a75-a961-1f354bd24165",
+				"material": "3d8c2c8b-f411-40c2-aaa0-5b7cde9622d1"
+			},
+			{
+				"uuid": "b99aa162-1618-4256-9d5c-555aa71ce65f",
+				"type": "Mesh",
+				"name": "Motor Support",
+				"layers": 1,
+				"matrix": [1.2133535595513198e-15,-5.464458638663989,0,0,1.8044208297952993,4.006619102703944e-16,0,0,0,0,1.4756741772036879,0,-2.0906625598499677,-0.255870962388401,0.036244801012980776,1],
+				"up": [0,1,0],
+				"geometry": "d5b1687f-b107-487f-bedf-1a9fd199ce08",
+				"material": "e5070465-a661-41be-8fcb-a413b1c04af4"
+			},
+			{
+				"uuid": "571bdacc-b076-4608-b232-b5bdc1117f54",
+				"type": "Mesh",
+				"name": "Compressor Support",
+				"layers": 1,
+				"matrix": [2.1442388742128073e-15,-9.65679339489813,0,0,1.0863176995735875,2.412109844248861e-16,0,0,0,0,3.5531055547377157,0,-3.5335617172902114,0.39964943792088475,0,1],
+				"up": [0,1,0],
+				"geometry": "71b60b3d-12ac-476b-9c54-41586cfb4985",
+				"material": "6074d4ed-9584-4122-a8e4-23fb8a24139c"
+			}]
+	}
+}

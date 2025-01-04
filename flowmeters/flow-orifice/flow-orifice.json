@@ -1,0 +1,129 @@
+{
+	"metadata": {
+		"version": 4.6,
+		"type": "Object",
+		"generator": "Object3D.toJSON"
+	},
+	"geometries": [
+		{
+			"uuid": "ba0b0dcc-8e8d-4a0c-9ccd-8c6e7b928a5c",
+			"type": "CylinderGeometry",
+			"radiusTop": 1,
+			"radiusBottom": 0.5,
+			"height": 1,
+			"radialSegments": 32,
+			"heightSegments": 1,
+			"openEnded": false,
+			"thetaStart": 0,
+			"thetaLength": 6.283185307179586
+		},
+		{
+			"uuid": "921c0f6c-b348-4bcf-a10c-ebb329958ce9",
+			"type": "CylinderGeometry",
+			"radiusTop": 1,
+			"radiusBottom": 1,
+			"height": 1,
+			"radialSegments": 32,
+			"heightSegments": 1,
+			"openEnded": false,
+			"thetaStart": 0,
+			"thetaLength": 6.283185307179586
+		}],
+	"materials": [
+		{
+			"uuid": "7b099b29-072f-451a-8afc-0436297913b9",
+			"type": "MeshStandardMaterial",
+			"color": 16777215,
+			"roughness": 1,
+			"metalness": 1,
+			"emissive": 0,
+			"envMapRotation": [0,0,0,
+				"XYZ"],
+			"envMapIntensity": 1,
+			"blendColor": 0
+		},
+		{
+			"uuid": "ae5836a6-6b1f-4270-9fa8-8ee6e0a54866",
+			"type": "MeshStandardMaterial",
+			"color": 16777215,
+			"roughness": 1,
+			"metalness": 0,
+			"emissive": 11730944,
+			"envMapRotation": [0,0,0,
+				"XYZ"],
+			"envMapIntensity": 1,
+			"blendColor": 0
+		},
+		{
+			"uuid": "6f9e466d-811c-4bfd-95fe-7edbcc43afc0",
+			"type": "MeshStandardMaterial",
+			"name": "Steel",
+			"color": 16777215,
+			"roughness": 1,
+			"metalness": 1,
+			"emissive": 993243,
+			"envMapRotation": [0,0,0,
+				"XYZ"],
+			"envMapIntensity": 1,
+			"blendColor": 0
+		}],
+	"object": {
+		"uuid": "02c2f269-3b0e-4ac2-8cf2-3acd37ccb914",
+		"type": "Group",
+		"name": "Flow Orifice",
+		"layers": 1,
+		"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0,-2.246226627167899,1],
+		"up": [0,1,0],
+		"children": [
+			{
+				"uuid": "bb2a114a-8852-40da-8f97-3317a7daf399",
+				"type": "Mesh",
+				"name": "Left side neck",
+				"layers": 1,
+				"matrix": [0,1,-2.220446049250313e-16,0,-2.220446049250313e-16,2.220446049250313e-16,1,0,1,0,2.220446049250313e-16,0,0.011063348663679935,0.0092374997661854,1.5104422388349679,1],
+				"up": [0,1,0],
+				"geometry": "ba0b0dcc-8e8d-4a0c-9ccd-8c6e7b928a5c",
+				"material": "7b099b29-072f-451a-8afc-0436297913b9"
+			},
+			{
+				"uuid": "46d4a882-182e-47fe-8090-1b7c96682fc9",
+				"type": "Mesh",
+				"name": "Right side neck",
+				"layers": 1,
+				"matrix": [1,0,0,0,0,2.220446049250313e-16,-1,0,0,1,2.220446049250313e-16,0,0,0,2.9174203465441266,1],
+				"up": [0,1,0],
+				"geometry": "ba0b0dcc-8e8d-4a0c-9ccd-8c6e7b928a5c",
+				"material": "7b099b29-072f-451a-8afc-0436297913b9"
+			},
+			{
+				"uuid": "ec055a61-b7bb-404f-8406-310c0bad76c5",
+				"type": "Mesh",
+				"name": "Orifice",
+				"layers": 1,
+				"matrix": [1,0,0,0,0,1.1102230246251566e-17,-0.05,0,0,1,2.220446049250313e-16,0,0,0,2.221449060504167,1],
+				"up": [0,1,0],
+				"geometry": "921c0f6c-b348-4bcf-a10c-ebb329958ce9",
+				"material": "ae5836a6-6b1f-4270-9fa8-8ee6e0a54866"
+			},
+			{
+				"uuid": "769c019b-7bae-4043-9934-38b464cfcc45",
+				"type": "Mesh",
+				"name": "Left flange",
+				"layers": 1,
+				"matrix": [1.2,0,0,0,0,3.3306690738754695e-17,-0.15,0,0,1.2,2.6645352591003756e-16,0,0,0,2.333957640842837,1],
+				"up": [0,1,0],
+				"geometry": "921c0f6c-b348-4bcf-a10c-ebb329958ce9",
+				"material": "6f9e466d-811c-4bfd-95fe-7edbcc43afc0"
+			},
+			{
+				"uuid": "d5d0c63c-2bd8-4cf2-bf6f-e031f85d3f3f",
+				"type": "Mesh",
+				"name": "Right flange",
+				"layers": 1,
+				"matrix": [1.2,0,0,0,0,3.3306690738754695e-17,-0.15,0,0,1.2,2.6645352591003756e-16,0,0,0,2.0884523939508624,1],
+				"up": [0,1,0],
+				"geometry": "921c0f6c-b348-4bcf-a10c-ebb329958ce9",
+				"material": "6f9e466d-811c-4bfd-95fe-7edbcc43afc0"
+			}]
+	}
+}

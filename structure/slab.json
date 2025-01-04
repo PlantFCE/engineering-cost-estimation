@@ -1,0 +1,43 @@
+{
+	"metadata": {
+		"version": 4.6,
+		"type": "Object",
+		"generator": "Object3D.toJSON"
+	},
+	"geometries": [
+		{
+			"uuid": "02a545b9-708e-4b53-bd87-221490317d8f",
+			"type": "BoxGeometry",
+			"width": 9.5,
+			"height": 0.25,
+			"depth": 8.5,
+			"widthSegments": 1,
+			"heightSegments": 1,
+			"depthSegments": 1
+		}],
+	"materials": [
+		{
+			"uuid": "a320c5c8-94e7-4cb2-9e96-ab355a8c2daa",
+			"type": "MeshStandardMaterial",
+			"name": "Concrete",
+			"color": 16777215,
+			"roughness": 1,
+			"metalness": 0,
+			"emissive": 12171705,
+			"envMapRotation": [0,0,0,
+				"XYZ"],
+			"envMapIntensity": 1,
+			"blendColor": 0
+		}],
+	"object": {
+		"uuid": "72471b9f-2738-4dc0-aca6-d829b370f9b0",
+		"type": "Mesh",
+		"name": "Slab",
+		"visible": false,
+		"layers": 1,
+		"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,4,0.125,4,1],
+		"up": [0,1,0],
+		"geometry": "02a545b9-708e-4b53-bd87-221490317d8f",
+		"material": "a320c5c8-94e7-4cb2-9e96-ab355a8c2daa"
+	}
+}

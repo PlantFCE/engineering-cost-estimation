@@ -1,0 +1,97 @@
+{
+	"metadata": {
+		"version": 4.6,
+		"type": "Object",
+		"generator": "Object3D.toJSON"
+	},
+	"geometries": [
+		{
+			"uuid": "5759bc62-b91a-4412-99db-59dd18235f43",
+			"type": "CylinderGeometry",
+			"radiusTop": 1,
+			"radiusBottom": 0.8,
+			"height": 1,
+			"radialSegments": 32,
+			"heightSegments": 1,
+			"openEnded": false,
+			"thetaStart": 0,
+			"thetaLength": 6.283185307179586
+		},
+		{
+			"uuid": "921c0f6c-b348-4bcf-a10c-ebb329958ce9",
+			"type": "CylinderGeometry",
+			"radiusTop": 1,
+			"radiusBottom": 1,
+			"height": 1,
+			"radialSegments": 32,
+			"heightSegments": 1,
+			"openEnded": false,
+			"thetaStart": 0,
+			"thetaLength": 6.283185307179586
+		}],
+	"materials": [
+		{
+			"uuid": "ae5836a6-6b1f-4270-9fa8-8ee6e0a54866",
+			"type": "MeshStandardMaterial",
+			"color": 16777215,
+			"roughness": 1,
+			"metalness": 0,
+			"emissive": 11730944,
+			"envMapRotation": [0,0,0,
+				"XYZ"],
+			"envMapIntensity": 1,
+			"blendColor": 0
+		},
+		{
+			"uuid": "6f9e466d-811c-4bfd-95fe-7edbcc43afc0",
+			"type": "MeshStandardMaterial",
+			"name": "Steel",
+			"color": 16777215,
+			"roughness": 1,
+			"metalness": 1,
+			"emissive": 993243,
+			"envMapRotation": [0,0,0,
+				"XYZ"],
+			"envMapIntensity": 1,
+			"blendColor": 0
+		}],
+	"object": {
+		"uuid": "4f1db232-9ae3-42a8-986a-cdb6e73b6bea",
+		"type": "Group",
+		"name": "Check Valve",
+		"layers": 1,
+		"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,-0.18649271781888999,8.200100946533727,0.38851624210395874,1],
+		"up": [0,1,0],
+		"children": [
+			{
+				"uuid": "a3d6c161-3610-4123-a8a9-08f6800f5c15",
+				"type": "Mesh",
+				"name": "Body",
+				"layers": 1,
+				"matrix": [1,0,0,0,0,4.440892098500626e-16,-2,0,0,1,2.220446049250313e-16,0,0,0,0.0031684381312651055,1],
+				"up": [0,1,0],
+				"geometry": "5759bc62-b91a-4412-99db-59dd18235f43",
+				"material": "ae5836a6-6b1f-4270-9fa8-8ee6e0a54866"
+			},
+			{
+				"uuid": "ae47b9d1-33aa-4175-abaf-f6319391398e",
+				"type": "Mesh",
+				"name": "Left flange",
+				"layers": 1,
+				"matrix": [1,0,0,0,0,3.3306690738754695e-17,-0.15,0,0,1.2,2.6645352591003756e-16,0,0,0,-1.0596370213869435,1],
+				"up": [0,1,0],
+				"geometry": "921c0f6c-b348-4bcf-a10c-ebb329958ce9",
+				"material": "6f9e466d-811c-4bfd-95fe-7edbcc43afc0"
+			},
+			{
+				"uuid": "1485f7c8-5856-499a-97b1-7fbe06b69427",
+				"type": "Mesh",
+				"name": "Right flange",
+				"layers": 1,
+				"matrix": [1,0,0,0,0,3.3306690738754695e-17,-0.15,0,0,1.2,2.6645352591003756e-16,0,0,0,1.0769785354587216,1],
+				"up": [0,1,0],
+				"geometry": "921c0f6c-b348-4bcf-a10c-ebb329958ce9",
+				"material": "6f9e466d-811c-4bfd-95fe-7edbcc43afc0"
+			}]
+	}
+}

@@ -1,0 +1,42 @@
+{
+	"metadata": {
+		"version": 4.6,
+		"type": "Object",
+		"generator": "Object3D.toJSON"
+	},
+	"geometries": [
+		{
+			"uuid": "6ba26ad5-1ded-41f4-85ef-aca3ecc51ca1",
+			"type": "BoxGeometry",
+			"width": 1,
+			"height": 0.25,
+			"depth": 1,
+			"widthSegments": 1,
+			"heightSegments": 1,
+			"depthSegments": 1
+		}],
+	"materials": [
+		{
+			"uuid": "7ce0e098-cf9d-4147-a10f-e86e31722331",
+			"type": "MeshStandardMaterial",
+			"name": "Concrete",
+			"color": 16777215,
+			"roughness": 1,
+			"metalness": 0,
+			"emissive": 12171705,
+			"envMapRotation": [0,0,0,
+				"XYZ"],
+			"envMapIntensity": 1,
+			"blendColor": 0
+		}],
+	"object": {
+		"uuid": "257badcc-babd-4420-beec-14933ba1492e",
+		"type": "Mesh",
+		"name": "Column Footing",
+		"layers": 1,
+		"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0.125,0,1],
+		"up": [0,1,0],
+		"geometry": "6ba26ad5-1ded-41f4-85ef-aca3ecc51ca1",
+		"material": "7ce0e098-cf9d-4147-a10f-e86e31722331"
+	}
+}

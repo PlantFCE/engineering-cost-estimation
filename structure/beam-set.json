@@ -1,0 +1,82 @@
+{
+	"metadata": {
+		"version": 4.6,
+		"type": "Object",
+		"generator": "Object3D.toJSON"
+	},
+	"geometries": [
+		{
+			"uuid": "e0654b59-791f-475c-9999-17a90c590373",
+			"type": "BoxGeometry",
+			"width": 0.5,
+			"height": 0.5,
+			"depth": 3.5,
+			"widthSegments": 1,
+			"heightSegments": 1,
+			"depthSegments": 1
+		},
+		{
+			"uuid": "197039db-2cf5-4954-be23-1810f9cd3eb9",
+			"type": "BoxGeometry",
+			"width": 4.5,
+			"height": 0.5,
+			"depth": 0.5,
+			"widthSegments": 1,
+			"heightSegments": 1,
+			"depthSegments": 1
+		}],
+	"materials": [
+		{
+			"uuid": "a320c5c8-94e7-4cb2-9e96-ab355a8c2daa",
+			"type": "MeshStandardMaterial",
+			"name": "Concrete",
+			"color": 16777215,
+			"roughness": 1,
+			"metalness": 0,
+			"emissive": 12171705,
+			"envMapRotation": [0,0,0,
+				"XYZ"],
+			"envMapIntensity": 1,
+			"blendColor": 0
+		}],
+	"object": {
+		"uuid": "1b1277d4-f0c7-405f-833e-6dc91c7ed798",
+		"type": "Group",
+		"name": "Beam Set",
+		"visible": false,
+		"layers": 1,
+		"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1],
+		"up": [0,1,0],
+		"children": [
+			{
+				"uuid": "7e5249ef-85ee-4718-a56e-86a48fa11374",
+				"type": "Mesh",
+				"name": "Beam E-W-S",
+				"layers": 1,
+				"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0.5,0.25,2.5,1],
+				"up": [0,1,0],
+				"geometry": "e0654b59-791f-475c-9999-17a90c590373",
+				"material": "a320c5c8-94e7-4cb2-9e96-ab355a8c2daa"
+			},
+			{
+				"uuid": "466fd96f-7cd7-4fa6-bca8-7eb7b3ed80c8",
+				"type": "Mesh",
+				"name": "Beam N-S-W",
+				"layers": 1,
+				"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,3,0.25,0.5,1],
+				"up": [0,1,0],
+				"geometry": "197039db-2cf5-4954-be23-1810f9cd3eb9",
+				"material": "a320c5c8-94e7-4cb2-9e96-ab355a8c2daa"
+			},
+			{
+				"uuid": "844a20f4-f2d0-4528-bcf8-6fa26203e63b",
+				"type": "Mesh",
+				"name": "Beam N-S-E",
+				"layers": 1,
+				"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,3,0.25,4.5,1],
+				"up": [0,1,0],
+				"geometry": "197039db-2cf5-4954-be23-1810f9cd3eb9",
+				"material": "a320c5c8-94e7-4cb2-9e96-ab355a8c2daa"
+			}]
+	}
+}

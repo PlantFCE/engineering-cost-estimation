@@ -1,0 +1,180 @@
+{
+	"metadata": {
+		"version": 4.6,
+		"type": "Object",
+		"generator": "Object3D.toJSON"
+	},
+	"geometries": [
+		{
+			"uuid": "921c0f6c-b348-4bcf-a10c-ebb329958ce9",
+			"type": "CylinderGeometry",
+			"radiusTop": 1,
+			"radiusBottom": 1,
+			"height": 1,
+			"radialSegments": 32,
+			"heightSegments": 1,
+			"openEnded": false,
+			"thetaStart": 0,
+			"thetaLength": 6.283185307179586
+		},
+		{
+			"uuid": "4cf29453-8a61-40fe-93d3-0267bd19a846",
+			"type": "TorusGeometry",
+			"radius": 1,
+			"tube": 0.1,
+			"radialSegments": 12,
+			"tubularSegments": 48,
+			"arc": 6.283185307179586
+		},
+		{
+			"uuid": "58293836-da7f-4307-a51b-b2e21e4c64ea",
+			"type": "TubeGeometry",
+			"path": {
+				"metadata": {
+					"version": 4.6,
+					"type": "Curve",
+					"generator": "Curve.toJSON"
+				},
+				"arcLengthDivisions": 200,
+				"type": "CatmullRomCurve3",
+				"points": [[1,0,0],[0,0,0.2],[0,0.001,0.2],[0,1,0]],
+				"closed": false,
+				"curveType": "centripetal",
+				"tension": 0.5
+			},
+			"tubularSegments": 22,
+			"radius": 0.1,
+			"radialSegments": 8,
+			"closed": false
+		},
+		{
+			"uuid": "39303c22-e7df-4bbc-bde2-c98014a28d36",
+			"type": "CylinderGeometry",
+			"radiusTop": 0.1,
+			"radiusBottom": 0.1,
+			"height": 0.24,
+			"radialSegments": 32,
+			"heightSegments": 1,
+			"openEnded": false,
+			"thetaStart": 0,
+			"thetaLength": 6.283185307179586
+		}],
+	"materials": [
+		{
+			"uuid": "ae5836a6-6b1f-4270-9fa8-8ee6e0a54866",
+			"type": "MeshStandardMaterial",
+			"color": 16777215,
+			"roughness": 1,
+			"metalness": 0,
+			"emissive": 11730944,
+			"envMapRotation": [0,0,0,
+				"XYZ"],
+			"envMapIntensity": 1,
+			"blendColor": 0
+		},
+		{
+			"uuid": "6f9e466d-811c-4bfd-95fe-7edbcc43afc0",
+			"type": "MeshStandardMaterial",
+			"name": "Steel",
+			"color": 16777215,
+			"roughness": 1,
+			"metalness": 1,
+			"emissive": 993243,
+			"envMapRotation": [0,0,0,
+				"XYZ"],
+			"envMapIntensity": 1,
+			"blendColor": 0
+		},
+		{
+			"uuid": "7b099b29-072f-451a-8afc-0436297913b9",
+			"type": "MeshStandardMaterial",
+			"color": 16777215,
+			"roughness": 1,
+			"metalness": 1,
+			"emissive": 0,
+			"envMapRotation": [0,0,0,
+				"XYZ"],
+			"envMapIntensity": 1,
+			"blendColor": 0
+		}],
+	"object": {
+		"uuid": "5650a96d-8c3c-4947-ace8-4e5cd58ee170",
+		"type": "Group",
+		"name": "Butterfly Valve",
+		"layers": 1,
+		"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,2.7755575615628914e-17,-0.15898164570747142,-10.861056628218027,1],
+		"up": [0,1,0],
+		"children": [
+			{
+				"uuid": "fc8eaf1b-7534-471e-bbd8-9e5b34401b5f",
+				"type": "Mesh",
+				"name": "Body",
+				"layers": 1,
+				"matrix": [1,0,0,0,0,8.881784197001253e-17,-0.4,0,0,1,2.220446049250313e-16,0,0,0,0.0031684381312651055,1],
+				"up": [0,1,0],
+				"geometry": "921c0f6c-b348-4bcf-a10c-ebb329958ce9",
+				"material": "ae5836a6-6b1f-4270-9fa8-8ee6e0a54866"
+			},
+			{
+				"uuid": "44e43d89-fc59-411f-a74c-56a2ee94b8ca",
+				"type": "Mesh",
+				"name": "Left flange",
+				"layers": 1,
+				"matrix": [0.8,0,0,0,0,2.2204460492503132e-17,-0.1,0,0,0.8,1.7763568394002506e-16,0,-0.011489517762234391,0.0025576998198727496,-0.2519833509822337,1],
+				"up": [0,1,0],
+				"geometry": "921c0f6c-b348-4bcf-a10c-ebb329958ce9",
+				"material": "6f9e466d-811c-4bfd-95fe-7edbcc43afc0"
+			},
+			{
+				"uuid": "a60f536b-1506-4256-a62d-eaee4dbd4e1e",
+				"type": "Mesh",
+				"name": "Right flange",
+				"layers": 1,
+				"matrix": [0.8,0,0,0,0,2.2204460492503132e-17,-0.1,0,0,0.8,1.7763568394002506e-16,0,-0.009813771104043023,-0.0029541737191574047,0.2527830359254716,1],
+				"up": [0,1,0],
+				"geometry": "921c0f6c-b348-4bcf-a10c-ebb329958ce9",
+				"material": "6f9e466d-811c-4bfd-95fe-7edbcc43afc0"
+			},
+			{
+				"uuid": "a2e9d0de-c8c5-4007-8b00-f19f99a29ad5",
+				"type": "Mesh",
+				"name": "Handwheel",
+				"layers": 1,
+				"matrix": [0.5,0,0,0,0,1.1102230246251565e-16,0.5,0,0,-0.5,1.1102230246251565e-16,0,0,1.179646901597183,0,1],
+				"up": [0,1,0],
+				"geometry": "4cf29453-8a61-40fe-93d3-0267bd19a846",
+				"material": "7b099b29-072f-451a-8afc-0436297913b9",
+				"children": [
+					{
+						"uuid": "2b029d04-4d44-41a5-9190-2388d09fefc5",
+						"type": "Mesh",
+						"name": "Spoke Group 1",
+						"layers": 1,
+						"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,-6.938893903907228e-18,-0.001170787240697288,1],
+						"up": [0,1,0],
+						"geometry": "58293836-da7f-4307-a51b-b2e21e4c64ea",
+						"material": "7b099b29-072f-451a-8afc-0436297913b9"
+					},
+					{
+						"uuid": "1dfce0d4-17ab-47d3-a3af-31b67ec46e5a",
+						"type": "Mesh",
+						"name": "Spoke Group 2",
+						"layers": 1,
+						"matrix": [-1,1.2246467991473532e-16,0,0,-1.2246467991473532e-16,-1,0,0,0,0,1,0,0,-6.938893903907228e-18,-0.001170787240697288,1],
+						"up": [0,1,0],
+						"geometry": "58293836-da7f-4307-a51b-b2e21e4c64ea",
+						"material": "7b099b29-072f-451a-8afc-0436297913b9"
+					},
+					{
+						"uuid": "f1cbf6b7-e60e-4b07-93cc-239ae2464fec",
+						"type": "Mesh",
+						"name": "Spindle",
+						"layers": 1,
+						"matrix": [1,0,0,0,0,2.220446049250313e-16,1,0,0,-1,2.220446049250313e-16,0,0,0,0.32,1],
+						"up": [0,1,0],
+						"geometry": "39303c22-e7df-4bbc-bde2-c98014a28d36",
+						"material": "7b099b29-072f-451a-8afc-0436297913b9"
+					}]
+			}]
+	}
+}

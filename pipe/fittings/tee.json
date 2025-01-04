@@ -1,0 +1,63 @@
+{
+	"metadata": {
+		"version": 4.6,
+		"type": "Object",
+		"generator": "Object3D.toJSON"
+	},
+	"geometries": [
+		{
+			"uuid": "8c1d327b-4f1b-4633-a55e-5a405a58d4e4",
+			"type": "CylinderGeometry",
+			"radiusTop": 1,
+			"radiusBottom": 1,
+			"height": 1,
+			"radialSegments": 32,
+			"heightSegments": 1,
+			"openEnded": false,
+			"thetaStart": 0,
+			"thetaLength": 6.283185307179586
+		}],
+	"materials": [
+		{
+			"uuid": "d5c2d455-6393-4283-ac25-1f98684cc1e5",
+			"type": "MeshStandardMaterial",
+			"name": "Steel",
+			"color": 16777215,
+			"roughness": 1,
+			"metalness": 1,
+			"emissive": 993243,
+			"envMapRotation": [0,0,0,
+				"XYZ"],
+			"envMapIntensity": 1,
+			"blendColor": 0
+		}],
+	"object": {
+		"uuid": "650c4187-a186-4f54-8655-08629c209d45",
+		"type": "Group",
+		"name": "Tee",
+		"layers": 1,
+		"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1],
+		"up": [0,1,0],
+		"children": [
+			{
+				"uuid": "97d10b96-aeee-4e76-b083-871615c55099",
+				"type": "Mesh",
+				"name": "Pipe",
+				"layers": 1,
+				"matrix": [1.2,0,0,0,0,7.999918469656543,-0.03611756979801065,0,0,0.005417635469701598,1.1999877704484814,0,0,4.012,0,1],
+				"up": [0,1,0],
+				"geometry": "8c1d327b-4f1b-4633-a55e-5a405a58d4e4",
+				"material": "d5c2d455-6393-4283-ac25-1f98684cc1e5"
+			},
+			{
+				"uuid": "67ca031e-173e-4bcb-8256-c76f3483357f",
+				"type": "Mesh",
+				"name": "Pipe",
+				"layers": 1,
+				"matrix": [1.2,0,0,0,0,1.7763568394002505e-15,8,0,0,-1.2,2.6645352591003756e-16,0,0.002,8.013,0.04076542189587262,1],
+				"up": [0,1,0],
+				"geometry": "8c1d327b-4f1b-4633-a55e-5a405a58d4e4",
+				"material": "d5c2d455-6393-4283-ac25-1f98684cc1e5"
+			}]
+	}
+}
