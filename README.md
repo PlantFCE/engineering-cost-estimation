@@ -1,10 +1,17 @@
 # Engineering Cost Estimation
 Resources for engineering cost estimation.
 
-[Download all as ZIP](https://github.com/PlantFCE/engineering-cost-estimation/archive/refs/heads/main.zip)
+<a href="https://github.com/PlantFCE/engineering-cost-estimation/archive/refs/heads/main.zip">Download all as ZIP &rarr;</a>
 
 ## Models
-Models that can be used in PlantFCE Model Builder can be downloaded from [the models/ directory.](models/)
+These models can be used with the PlantFCE Model Builder.
+
+### How to Use
+1. Download the repository: <a href="https://github.com/PlantFCE/engineering-cost-estimation/archive/refs/heads/main.zip">Download all as ZIP &rarr;</a>
+2. Extract the ZIP file.
+3. Open Model Builder.
+4. Go to the menu, click `File` and then click `Import`.
+5. Choose one of the models downloaded and click `Open`.
 
 ### Pipes
 - [Pipe](./pipe/pipe/pipe.json)
@@ -42,6 +49,11 @@ Models that can be used in PlantFCE Model Builder can be downloaded from [the mo
 - [Crusher](./equipment/crusher-and-mill/crusher.json)
 
 ### Complete Models
+#### How to Use
+> [!IMPORTANT]
+> Complete models must be opened by choosing `File` > `Open` rather than `File` > `Import`.
+
+#### Models
 - [Pipe Rack With Reactors](./models/pipe-rack-with-reactors.json)
 - [Pipe Rack With Reactors, Slabs, Handrails, and Actors](./models/pipe-rack-with-reactors-slabs-handrail-actors.json)
 - [Ball Valve, Pipe, Left Elbow, Right Elbow, and Directional Light](./models/ball-valve-pipe-left-elbow-right-elbow-directional-light.json)
@@ -51,14 +63,13 @@ This project is licensed under CC0. Check [LICENSE](LICENSE) for more informatio
 
 ---
 <!-- Footer -->
-<a href="https://plantfce.com">
 <table style="border: 2px solid; margin-top: 1rem;">
 <tr>
 <td width="20%" style="border-right: 2px solid;"><img src="https://plantfce.com/images/PlantFCE.png" style="max-width: 100px;"></td>
 <td>
 <p>by <b>PlantFCE</b></p>
 <p>A fully integrated suite of tools for cost estimation</p>
+<p><a href="https://plantfce.com/">Learn More &rarr;</a></p>
 </td>
 </tr>
 </table>
-</a>
